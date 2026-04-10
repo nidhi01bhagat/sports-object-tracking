@@ -1,0 +1,5 @@
+yt-dlp>=2026.3.17
+ultralytics>=8.4.0
+opencv-python>=4.13.0
+numpy>=2.4.0
+supervision>=0.27.0
