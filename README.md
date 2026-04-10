@@ -1,4 +1,4 @@
-# ?? Sports Multi-Object Tracking
+# Sports Multi-Object Tracking
 
 > Real-time player detection and persistent ID tracking in cricket footage
 > Built with YOLOv8 + ByteTrack + OpenCV
@@ -30,11 +30,11 @@ py -3.11 -m yt_dlp https://www.youtube.com/shorts/Cdcmx576dtY -o input_video.mp4
 py -3.11 pipeline.py
 
 ## Project Structure
-- src/detector.py  — YOLOv8 person detection
-- src/tracker.py   — ByteTrack multi-object tracker
-- src/annotator.py — Bounding boxes, ID labels, trail drawing
-- pipeline.py      — Main runner script
-- report/          — Technical report
+- src/detector.py  â€” YOLOv8 person detection
+- src/tracker.py   â€” ByteTrack multi-object tracker
+- src/annotator.py â€” Bounding boxes, ID labels, trail drawing
+- pipeline.py      â€” Main runner script
+- report/          â€” Technical report
 
 ## Tech Stack
 - Detector : YOLOv8n (Ultralytics)
@@ -43,4 +43,4 @@ py -3.11 pipeline.py
 - Language : Python 3.11
 
 ## Author
-Nidhi Bhagat — github.com/nidhi01bhagat
+Nidhi Bhagat â€” github.com/nidhi01bhagat
