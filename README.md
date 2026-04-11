@@ -65,5 +65,7 @@ py -3.11 app.py
 
 ## Author
 Nidhi Bhagat
+
 github.com/nidhi01bhagat
+
 huggingface.co/spaces/nidhi01bhagat/sports-object-tracking
