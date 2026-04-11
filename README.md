@@ -1,4 +1,16 @@
-# Sports Multi-Object Tracking
+---
+title: Sports Object Tracking
+emoji: ??
+colorFrom: blue
+colorTo: green
+sdk: gradio
+sdk_version: "4.44.0"
+python_version: "3.11"
+app_file: app.py
+pinned: false
+---
+
+# ?? Sports Multi-Object Tracking
 
 > Real-time player detection and persistent ID tracking in cricket footage
 > Built with YOLOv8 + ByteTrack + OpenCV
@@ -6,41 +18,23 @@
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![YOLOv8](https://img.shields.io/badge/Detector-YOLOv8n-purple)
 ![Tracker](https://img.shields.io/badge/Tracker-ByteTrack-green)
-![Status](https://img.shields.io/badge/Status-In%20Progress-orange)
 
 ## Video Source
 Original video: https://www.youtube.com/shorts/Cdcmx576dtY
 
+## How to Use
+1. Upload a sports video
+2. Wait for processing
+3. Download the annotated output video with player IDs
+
 ## Pipeline
-Video Input ? Frame Extraction ? YOLOv8 Detection ? ByteTrack ? ID Assignment ? Annotated Output
-
-## Setup
-
-### Requirements
-- Python 3.11
-- 8GB RAM minimum
-
-### Install dependencies
-pip install -r requirements.txt
-
-### Download video
-py -3.11 -m yt_dlp https://www.youtube.com/shorts/Cdcmx576dtY -o input_video.mp4
-
-### Run tracker
-py -3.11 pipeline.py
-
-## Project Structure
-- src/detector.py  — YOLOv8 person detection
-- src/tracker.py   — ByteTrack multi-object tracker
-- src/annotator.py — Bounding boxes, ID labels, trail drawing
-- pipeline.py      — Main runner script
-- report/          — Technical report
+Video Input ? YOLOv8 Detection ? ByteTrack ? ID Assignment ? Annotated Output
 
 ## Tech Stack
-- Detector : YOLOv8n (Ultralytics)
-- Tracker  : ByteTrack (via Supervision)
-- Annotation: OpenCV
-- Language : Python 3.11
+- YOLOv8n (Ultralytics)
+- ByteTrack (Supervision)
+- OpenCV
+- Python 3.11
 
 ## Author
-Nidhi Bhagat — github.com/nidhi01bhagat
+Nidhi Bhagat | github.com/nidhi01bhagat/sports-object-tracking
