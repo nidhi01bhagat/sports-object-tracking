@@ -123,5 +123,7 @@ py -3.11 app.py
 ## Author
 
 Nidhi Bhagat
+
 - GitHub: github.com/nidhi01bhagat
+
 - LinkedIn: linkedin.com/in/nidhi-bhagat01
